@@ -5,10 +5,12 @@
 //  Created by lior on 30/03/2025.
 //
 
+
 import SwiftUI
 
 
 struct PopupView: View {
+
     @Binding var inputText: String
     @Binding var showPopup: Bool
     @Binding var savedText: String
